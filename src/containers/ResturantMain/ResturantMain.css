@@ -1,0 +1,21 @@
+.maincontainer{
+    margin:10px;
+    margin-left:200px;
+}
+
+.main-heading{
+    text-align: center;
+}
+
+.content-container{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 700px) {
+    .maincontainer {margin-left: 10px;}
+  }
